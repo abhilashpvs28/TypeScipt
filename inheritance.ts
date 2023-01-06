@@ -1,13 +1,19 @@
-class Parent {
-    name='Akash sen';
-}
-
-class Child extends Parent{
-
-    getName(){
-        return this.name
+export {}
+class Papa{
+    running;
+    setHabbits(rem){
+        this.running = rem
     }
 }
 
-let saobj = new Child();
-console.log(saobj.getName())
+class Brother extends Papa {
+
+    getpers(){
+        return this.running
+    }
+}
+
+let outcomeobj = new Brother;
+outcomeobj.setHabbits('4km')
+
+console.log(outcomeobj.getpers())
