@@ -14,9 +14,9 @@ Optional Params With type
 
 // giving a value through a function
 
-function glass(a:string ,b :number|string):number|string {
+function glass(a:string ,b:string):string 
+{
     return a+b ;
 }
-
-console.log(`His Name is ${glass("harish ","asd")}`);
+// console.log(`His Name is ${glass("harish ","asd")}`);
 console.log(`His Name is ${glass("Sanu ","Kumar")}`);
