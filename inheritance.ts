@@ -1,10 +1,13 @@
-class Child {
+class Parent {
     name='Akash sen';
-    getName()
-    {
+}
+
+class Child extends Parent{
+
+    getName(){
         return this.name
     }
 }
 
-let childobj = new Child();
-console.log(childobj.getName())
+let saobj = new Child();
+console.log(saobj.getName())
