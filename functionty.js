@@ -14,3 +14,4 @@ function glass(a, b) {
     return a + b;
 }
 console.log("His Name is ".concat(glass("harish ", "asd")));
+console.log("His Name is ".concat(glass("Sanu ", "Kumar")));

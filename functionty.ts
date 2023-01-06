@@ -19,3 +19,4 @@ function glass(a:string ,b :number|string):number|string {
 }
 
 console.log(`His Name is ${glass("harish ","asd")}`);
+console.log(`His Name is ${glass("Sanu ","Kumar")}`);
